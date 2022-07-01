@@ -21,6 +21,8 @@ public class TestController {
 	public List<TestVo> test() {
 		List<TestVo> test = testService.getList();
 		
+		String test2 = "새로 추가한 사항";
+		
 		return test;
 	}
 }
