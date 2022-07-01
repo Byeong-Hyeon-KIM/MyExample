@@ -22,6 +22,7 @@ public class TestController {
 		List<TestVo> test = testService.getList();
 		
 		String test2 = "새로 추가한 사항";
+		String test3 = "pull 이후 새로 추가한 사항";
 		
 		return test;
 	}
