@@ -2,18 +2,9 @@
     pageEncoding="UTF-8"%>
 <%@ page import = "java.util.Enumeration" %>
 <html>
-<head><title>헤더 목록 출력</title></head>
+<head><title></title></head>
 <body>
-<%
-    Enumeration headerEnum = request.getHeaderNames();
-    while(headerEnum.hasMoreElements()) {
-        String headerName = (String)headerEnum.nextElement();
-        String headerValue = request.getHeader(headerName);
-%>
-<%= headerName %> = <%= headerValue %> <br>
-<%
-    }
-%>
+    <h2>수정된 내용을 pull 해보기</h2>
  
 </body>
 </html>
